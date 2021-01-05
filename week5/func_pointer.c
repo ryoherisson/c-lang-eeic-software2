@@ -13,6 +13,7 @@ int main() {
     int x = 1;
 
     int y = (*fp)(x);
+    // int y = fp(x); でもOK
 
     printf("%d\n", y);
 
