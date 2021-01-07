@@ -34,3 +34,5 @@ clean: tmpclean
 # ar rsv lib/libqsort.a src/qsort_lib.o
 # # コンパイル
 # gcc -o bin/qsort -I./include src/main.c -L./lib -lqsort 
+
+# *~ はEmacsなどのエディタが生成するバックアップファイル（ファイル名に~がつく）を表しています。
